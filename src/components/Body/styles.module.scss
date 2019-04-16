@@ -1,0 +1,22 @@
+@import '../../stylesheets/variables';
+.body {
+	min-height: 75vh;
+	padding: 30px 30px 30px 30px;
+	background-color: $day-bg-dark;
+	.today {
+		font-size: 18px;
+		margin-bottom: 20px;
+		display: block;
+	}
+	.message {
+		font-size: 50px;
+        line-height: 80px;
+        &.loading, &.error{
+            font-size: 30px;
+            line-height: 50px;
+        }
+    }
+    &.night{
+        background-color: $night-bg-dark;
+    }
+}

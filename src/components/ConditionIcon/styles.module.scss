@@ -1,0 +1,12 @@
+@import '../../stylesheets/variables';
+.night {
+	* {
+		stroke: $night-color;
+	}
+}
+
+.day {
+	* {
+		stroke: $day-color;
+	}
+}

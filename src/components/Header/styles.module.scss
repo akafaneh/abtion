@@ -1,0 +1,29 @@
+@import '../../stylesheets/variables';
+
+.header {
+	min-height: 25vh;
+	background-color: $day-bg-light;
+	padding: 20px 40px 40px 40px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	.location {
+		text-align: center;
+		font-size: 18px;
+	}
+	.weather {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.temp {
+			font-size: 50px;
+		}
+		.condition {
+			width: 100px;
+			height: 100px;
+		}
+	}
+	&.night {
+		background-color: $night-bg-light;
+	}
+}

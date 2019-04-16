@@ -1,0 +1,7 @@
+@import '../../stylesheets/variables';
+.main{
+    min-height: inherit;
+    &.night{
+        color: $night-color;
+    }
+}
